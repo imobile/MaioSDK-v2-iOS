@@ -1,0 +1,74 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Maio
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AdSupport
+import CoreTelephony
+import Foundation
+@_exported import Maio
+import Network
+import SafariServices
+import StoreKit
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+@objc @objcMembers public class MaioRequest : ObjectiveC.NSObject {
+  @objc final public let zoneId: Swift.String
+  @objc final public let testMode: Swift.Bool
+  @objc final public let bidData: Swift.String?
+  @objc public init(zoneId: Swift.String, testMode: Swift.Bool, bidData: Swift.String?)
+  @objc convenience public init(zoneId: Swift.String, testMode: Swift.Bool)
+  @objc deinit
+}
+@objc public protocol MaioRewardedLoadCallback {
+  @objc optional func didLoad(_ ad: Maio.MaioRewarded)
+  @objc optional func didFail(_ ad: Maio.MaioRewarded, errorCode: Swift.Int)
+}
+@objc public protocol MaioRewardedShowCallback {
+  @objc optional func didOpen(_ ad: Maio.MaioRewarded)
+  @objc optional func didClose(_ ad: Maio.MaioRewarded)
+  @objc optional func didReward(_ ad: Maio.MaioRewarded, reward: Maio.RewardData)
+  @objc optional func didFail(_ ad: Maio.MaioRewarded, errorCode: Swift.Int)
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MaioRewarded : ObjectiveC.NSObject {
+  @objc public static func loadAd(request: Maio.MaioRequest, callback: Maio.MaioRewardedLoadCallback?) -> Maio.MaioRewarded
+  @objc public func show(viewContext context: UIKit.UIViewController, callback: Maio.MaioRewardedShowCallback?)
+  @objc public var request: Maio.MaioRequest {
+    @objc get
+  }
+  @objc deinit
+}
+@objc @objcMembers public class RewardData : ObjectiveC.NSObject {
+  @objc final public let value: Swift.String
+  @objc public init(value: Swift.String)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MaioVersion : ObjectiveC.NSObject {
+  @objc public static let shared: Maio.MaioVersion
+  @objc public func toString() -> Swift.String
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@objc public protocol MaioInterstitialLoadCallback {
+  @objc optional func didLoad(_ ad: Maio.MaioInterstitial)
+  @objc optional func didFail(_ ad: Maio.MaioInterstitial, errorCode: Swift.Int)
+}
+@objc public protocol MaioInterstitialShowCallback {
+  @objc optional func didOpen(_ ad: Maio.MaioInterstitial)
+  @objc optional func didClose(_ ad: Maio.MaioInterstitial)
+  @objc optional func didFail(_ ad: Maio.MaioInterstitial, errorCode: Swift.Int)
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MaioInterstitial : ObjectiveC.NSObject {
+  @objc public var request: Maio.MaioRequest {
+    @objc get
+  }
+  @objc public static func loadAd(request: Maio.MaioRequest, callback: Maio.MaioInterstitialLoadCallback?) -> Maio.MaioInterstitial
+  @objc public func show(viewContext context: UIKit.UIViewController, callback: Maio.MaioInterstitialShowCallback?)
+  @objc deinit
+}

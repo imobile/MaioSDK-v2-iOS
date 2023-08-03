@@ -1,0 +1,2887 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaioRequest",
+        "printedName": "MaioRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "zoneId",
+            "printedName": "zoneId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Maio@objc(cs)MaioRequest(py)zoneId",
+            "mangledName": "$s4Maio0A7RequestC6zoneIdSSvp",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Maio@objc(cs)MaioRequest(im)zoneId",
+                "mangledName": "$s4Maio0A7RequestC6zoneIdSSvg",
+                "moduleName": "Maio",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "testMode",
+            "printedName": "testMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Maio@objc(cs)MaioRequest(py)testMode",
+            "mangledName": "$s4Maio0A7RequestC8testModeSbvp",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Maio@objc(cs)MaioRequest(im)testMode",
+                "mangledName": "$s4Maio0A7RequestC8testModeSbvg",
+                "moduleName": "Maio",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bidData",
+            "printedName": "bidData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Maio@objc(cs)MaioRequest(py)bidData",
+            "mangledName": "$s4Maio0A7RequestC7bidDataSSSgvp",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Maio@objc(cs)MaioRequest(im)bidData",
+                "mangledName": "$s4Maio0A7RequestC7bidDataSSSgvg",
+                "moduleName": "Maio",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(zoneId:testMode:bidData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRequest",
+                "printedName": "Maio.MaioRequest",
+                "usr": "c:@M@Maio@objc(cs)MaioRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Maio@objc(cs)MaioRequest(im)initWithZoneId:testMode:bidData:",
+            "mangledName": "$s4Maio0A7RequestC6zoneId8testMode7bidDataACSS_SbSSSgtcfc",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(zoneId:testMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRequest",
+                "printedName": "Maio.MaioRequest",
+                "usr": "c:@M@Maio@objc(cs)MaioRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Maio@objc(cs)MaioRequest(im)initWithZoneId:testMode:",
+            "mangledName": "$s4Maio0A7RequestC6zoneId8testModeACSS_Sbtcfc",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRequest",
+                "printedName": "Maio.MaioRequest",
+                "usr": "c:@M@Maio@objc(cs)MaioRequest"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Maio@objc(cs)MaioRequest(im)init",
+            "mangledName": "$s4Maio0A7RequestCACycfc",
+            "moduleName": "Maio",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Maio@objc(cs)MaioRequest",
+        "mangledName": "$s4Maio0A7RequestC",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaioRewardedLoadCallback",
+        "printedName": "MaioRewardedLoadCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didLoad",
+            "printedName": "didLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRewarded",
+                "printedName": "Maio.MaioRewarded",
+                "usr": "c:@M@Maio@objc(cs)MaioRewarded"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioRewardedLoadCallback(im)didLoad:",
+            "mangledName": "$s4Maio0A20RewardedLoadCallbackP03didC0yyAA0aB0CF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioRewardedLoadCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioRewardedLoadCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFail",
+            "printedName": "didFail(_:errorCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRewarded",
+                "printedName": "Maio.MaioRewarded",
+                "usr": "c:@M@Maio@objc(cs)MaioRewarded"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioRewardedLoadCallback(im)didFail:errorCode:",
+            "mangledName": "$s4Maio0A20RewardedLoadCallbackP7didFail_9errorCodeyAA0aB0C_SitF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioRewardedLoadCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioRewardedLoadCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Maio@objc(pl)MaioRewardedLoadCallback",
+        "mangledName": "$s4Maio0A20RewardedLoadCallbackP",
+        "moduleName": "Maio",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaioRewardedShowCallback",
+        "printedName": "MaioRewardedShowCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didOpen",
+            "printedName": "didOpen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRewarded",
+                "printedName": "Maio.MaioRewarded",
+                "usr": "c:@M@Maio@objc(cs)MaioRewarded"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioRewardedShowCallback(im)didOpen:",
+            "mangledName": "$s4Maio0A20RewardedShowCallbackP7didOpenyyAA0aB0CF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioRewardedShowCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioRewardedShowCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClose",
+            "printedName": "didClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRewarded",
+                "printedName": "Maio.MaioRewarded",
+                "usr": "c:@M@Maio@objc(cs)MaioRewarded"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioRewardedShowCallback(im)didClose:",
+            "mangledName": "$s4Maio0A20RewardedShowCallbackP8didCloseyyAA0aB0CF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioRewardedShowCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioRewardedShowCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReward",
+            "printedName": "didReward(_:reward:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRewarded",
+                "printedName": "Maio.MaioRewarded",
+                "usr": "c:@M@Maio@objc(cs)MaioRewarded"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RewardData",
+                "printedName": "Maio.RewardData",
+                "usr": "c:@M@Maio@objc(cs)RewardData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioRewardedShowCallback(im)didReward:reward:",
+            "mangledName": "$s4Maio0A20RewardedShowCallbackP9didReward_6rewardyAA0aB0C_AA0F4DataCtF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioRewardedShowCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioRewardedShowCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFail",
+            "printedName": "didFail(_:errorCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRewarded",
+                "printedName": "Maio.MaioRewarded",
+                "usr": "c:@M@Maio@objc(cs)MaioRewarded"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioRewardedShowCallback(im)didFail:errorCode:",
+            "mangledName": "$s4Maio0A20RewardedShowCallbackP7didFail_9errorCodeyAA0aB0C_SitF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioRewardedShowCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioRewardedShowCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Maio@objc(pl)MaioRewardedShowCallback",
+        "mangledName": "$s4Maio0A20RewardedShowCallbackP",
+        "moduleName": "Maio",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaioRewarded",
+        "printedName": "MaioRewarded",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(request:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRewarded",
+                "printedName": "Maio.MaioRewarded",
+                "usr": "c:@M@Maio@objc(cs)MaioRewarded"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRequest",
+                "printedName": "Maio.MaioRequest",
+                "usr": "c:@M@Maio@objc(cs)MaioRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Maio.MaioRewardedLoadCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaioRewardedLoadCallback",
+                    "printedName": "Maio.MaioRewardedLoadCallback",
+                    "usr": "c:@M@Maio@objc(pl)MaioRewardedLoadCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(cs)MaioRewarded(cm)loadAdWithRequest:callback:",
+            "mangledName": "$s4Maio0A8RewardedC6loadAd7request8callbackAcA0A7RequestC_AA0aB12LoadCallback_pSgtFZ",
+            "moduleName": "Maio",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(viewContext:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Maio.MaioRewardedShowCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaioRewardedShowCallback",
+                    "printedName": "Maio.MaioRewardedShowCallback",
+                    "usr": "c:@M@Maio@objc(pl)MaioRewardedShowCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(cs)MaioRewarded(im)showWithViewContext:callback:",
+            "mangledName": "$s4Maio0A8RewardedC4show11viewContext8callbackySo16UIViewControllerC_AA0aB12ShowCallback_pSgtF",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "request",
+            "printedName": "request",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRequest",
+                "printedName": "Maio.MaioRequest",
+                "usr": "c:@M@Maio@objc(cs)MaioRequest"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Maio@objc(cs)MaioRewarded(py)request",
+            "mangledName": "$s4Maio0A8RewardedC7requestAA0A7RequestCvp",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaioRequest",
+                    "printedName": "Maio.MaioRequest",
+                    "usr": "c:@M@Maio@objc(cs)MaioRequest"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Maio@objc(cs)MaioRewarded(im)request",
+                "mangledName": "$s4Maio0A8RewardedC7requestAA0A7RequestCvg",
+                "moduleName": "Maio",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRewarded",
+                "printedName": "Maio.MaioRewarded",
+                "usr": "c:@M@Maio@objc(cs)MaioRewarded"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Maio@objc(cs)MaioRewarded(im)init",
+            "mangledName": "$s4Maio0A8RewardedCACycfc",
+            "moduleName": "Maio",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Maio@objc(cs)MaioRewarded",
+        "mangledName": "$s4Maio0A8RewardedC",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RewardData",
+        "printedName": "RewardData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Maio@objc(cs)RewardData(py)value",
+            "mangledName": "$s4Maio10RewardDataC5valueSSvp",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Maio@objc(cs)RewardData(im)value",
+                "mangledName": "$s4Maio10RewardDataC5valueSSvg",
+                "moduleName": "Maio",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RewardData",
+                "printedName": "Maio.RewardData",
+                "usr": "c:@M@Maio@objc(cs)RewardData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Maio@objc(cs)RewardData(im)initWithValue:",
+            "mangledName": "$s4Maio10RewardDataC5valueACSS_tcfc",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RewardData",
+                "printedName": "Maio.RewardData",
+                "usr": "c:@M@Maio@objc(cs)RewardData"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Maio@objc(cs)RewardData(im)init",
+            "mangledName": "$s4Maio10RewardDataCACycfc",
+            "moduleName": "Maio",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Maio@objc(cs)RewardData",
+        "mangledName": "$s4Maio10RewardDataC",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaioVersion",
+        "printedName": "MaioVersion",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioVersion",
+                "printedName": "Maio.MaioVersion",
+                "usr": "c:@M@Maio@objc(cs)MaioVersion"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Maio@objc(cs)MaioVersion(cpy)shared",
+            "mangledName": "$s4Maio0A7VersionC6sharedACvpZ",
+            "moduleName": "Maio",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaioVersion",
+                    "printedName": "Maio.MaioVersion",
+                    "usr": "c:@M@Maio@objc(cs)MaioVersion"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Maio@objc(cs)MaioVersion(cm)shared",
+                "mangledName": "$s4Maio0A7VersionC6sharedACvgZ",
+                "moduleName": "Maio",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(cs)MaioVersion(im)toString",
+            "mangledName": "$s4Maio0A7VersionC8toStringSSyF",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Maio@objc(cs)MaioVersion(py)description",
+            "mangledName": "$s4Maio0A7VersionC11descriptionSSvp",
+            "moduleName": "Maio",
+            "overriding": true,
+            "objc_name": "description",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Maio@objc(cs)MaioVersion(im)description",
+                "mangledName": "$s4Maio0A7VersionC11descriptionSSvg",
+                "moduleName": "Maio",
+                "overriding": true,
+                "objc_name": "description",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioVersion",
+                "printedName": "Maio.MaioVersion",
+                "usr": "c:@M@Maio@objc(cs)MaioVersion"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Maio@objc(cs)MaioVersion(im)init",
+            "mangledName": "$s4Maio0A7VersionCACycfc",
+            "moduleName": "Maio",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Maio@objc(cs)MaioVersion",
+        "mangledName": "$s4Maio0A7VersionC",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "Maio"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaioInterstitialLoadCallback",
+        "printedName": "MaioInterstitialLoadCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didLoad",
+            "printedName": "didLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioInterstitial",
+                "printedName": "Maio.MaioInterstitial",
+                "usr": "c:@M@Maio@objc(cs)MaioInterstitial"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioInterstitialLoadCallback(im)didLoad:",
+            "mangledName": "$s4Maio0A24InterstitialLoadCallbackP03didC0yyAA0aB0CF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioInterstitialLoadCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioInterstitialLoadCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFail",
+            "printedName": "didFail(_:errorCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioInterstitial",
+                "printedName": "Maio.MaioInterstitial",
+                "usr": "c:@M@Maio@objc(cs)MaioInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioInterstitialLoadCallback(im)didFail:errorCode:",
+            "mangledName": "$s4Maio0A24InterstitialLoadCallbackP7didFail_9errorCodeyAA0aB0C_SitF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioInterstitialLoadCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioInterstitialLoadCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Maio@objc(pl)MaioInterstitialLoadCallback",
+        "mangledName": "$s4Maio0A24InterstitialLoadCallbackP",
+        "moduleName": "Maio",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaioInterstitialShowCallback",
+        "printedName": "MaioInterstitialShowCallback",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didOpen",
+            "printedName": "didOpen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioInterstitial",
+                "printedName": "Maio.MaioInterstitial",
+                "usr": "c:@M@Maio@objc(cs)MaioInterstitial"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioInterstitialShowCallback(im)didOpen:",
+            "mangledName": "$s4Maio0A24InterstitialShowCallbackP7didOpenyyAA0aB0CF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioInterstitialShowCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioInterstitialShowCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didClose",
+            "printedName": "didClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioInterstitial",
+                "printedName": "Maio.MaioInterstitial",
+                "usr": "c:@M@Maio@objc(cs)MaioInterstitial"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioInterstitialShowCallback(im)didClose:",
+            "mangledName": "$s4Maio0A24InterstitialShowCallbackP8didCloseyyAA0aB0CF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioInterstitialShowCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioInterstitialShowCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFail",
+            "printedName": "didFail(_:errorCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioInterstitial",
+                "printedName": "Maio.MaioInterstitial",
+                "usr": "c:@M@Maio@objc(cs)MaioInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioInterstitialShowCallback(im)didFail:errorCode:",
+            "mangledName": "$s4Maio0A24InterstitialShowCallbackP7didFail_9errorCodeyAA0aB0C_SitF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioInterstitialShowCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioInterstitialShowCallback>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Maio@objc(pl)MaioInterstitialShowCallback",
+        "mangledName": "$s4Maio0A24InterstitialShowCallbackP",
+        "moduleName": "Maio",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MaioInterstitial",
+        "printedName": "MaioInterstitial",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "request",
+            "printedName": "request",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRequest",
+                "printedName": "Maio.MaioRequest",
+                "usr": "c:@M@Maio@objc(cs)MaioRequest"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Maio@objc(cs)MaioInterstitial(py)request",
+            "mangledName": "$s4Maio0A12InterstitialC7requestAA0A7RequestCvp",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaioRequest",
+                    "printedName": "Maio.MaioRequest",
+                    "usr": "c:@M@Maio@objc(cs)MaioRequest"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Maio@objc(cs)MaioInterstitial(im)request",
+                "mangledName": "$s4Maio0A12InterstitialC7requestAA0A7RequestCvg",
+                "moduleName": "Maio",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(request:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioInterstitial",
+                "printedName": "Maio.MaioInterstitial",
+                "usr": "c:@M@Maio@objc(cs)MaioInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRequest",
+                "printedName": "Maio.MaioRequest",
+                "usr": "c:@M@Maio@objc(cs)MaioRequest"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Maio.MaioInterstitialLoadCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaioInterstitialLoadCallback",
+                    "printedName": "Maio.MaioInterstitialLoadCallback",
+                    "usr": "c:@M@Maio@objc(pl)MaioInterstitialLoadCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(cs)MaioInterstitial(cm)loadAdWithRequest:callback:",
+            "mangledName": "$s4Maio0A12InterstitialC6loadAd7request8callbackAcA0A7RequestC_AA0aB12LoadCallback_pSgtFZ",
+            "moduleName": "Maio",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(viewContext:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Maio.MaioInterstitialShowCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaioInterstitialShowCallback",
+                    "printedName": "Maio.MaioInterstitialShowCallback",
+                    "usr": "c:@M@Maio@objc(pl)MaioInterstitialShowCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(cs)MaioInterstitial(im)showWithViewContext:callback:",
+            "mangledName": "$s4Maio0A12InterstitialC4show11viewContext8callbackySo16UIViewControllerC_AA0aB12ShowCallback_pSgtF",
+            "moduleName": "Maio",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MaioInterstitial",
+                "printedName": "Maio.MaioInterstitial",
+                "usr": "c:@M@Maio@objc(cs)MaioInterstitial"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Maio@objc(cs)MaioInterstitial(im)init",
+            "mangledName": "$s4Maio0A12InterstitialCACycfc",
+            "moduleName": "Maio",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Maio@objc(cs)MaioInterstitial",
+        "mangledName": "$s4Maio0A12InterstitialC",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Maio",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WKUserContentController",
+        "printedName": "WKUserContentController",
+        "declKind": "Class",
+        "usr": "c:objc(cs)WKUserContentController",
+        "moduleName": "WebKit",
+        "isOpen": true,
+        "intro_iOS": "8.0",
+        "objc_name": "WKUserContentController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Consts.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 64,
+      "value": "\"https:\/\/res-creatives.maio.jp\/maio-ad\/v1\/platform\/ios\/ios.html\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/MaioRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 11,
+      "value": "\"Maio.MaioRequest\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/MaioRewarded.swift",
+      "kind": "StringLiteral",
+      "offset": 2394,
+      "length": 12,
+      "value": "\"Maio.MaioRewarded\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/VideoView.swift",
+      "kind": "Dictionary",
+      "offset": 1347,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/VideoView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/StoreProductPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 903,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/AVPlayerNativePlayerResource.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 28,
+      "value": "\"Maio.AVPlayerNativePlayerResource\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/AVPlayerItemStatusObserver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/SKAdImpressionStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/SKAdImpressionStore.swift",
+      "kind": "Dictionary",
+      "offset": 1402,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/SKAdImpressionStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2969,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/AVPlayerRateObserver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 236,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "StringLiteral",
+      "offset": 1874,
+      "length": 20,
+      "value": "\"Maio.ScriptMessageHandler\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "StringLiteral",
+      "offset": 2759,
+      "length": 17,
+      "value": "\"miraiboxHandler\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "Dictionary",
+      "offset": 3455,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "Dictionary",
+      "offset": 3545,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "Dictionary",
+      "offset": 3967,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "Dictionary",
+      "offset": 4063,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4467,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "Dictionary",
+      "offset": 4563,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "Dictionary",
+      "offset": 4653,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "Array",
+      "offset": 4748,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "StringLiteral",
+      "offset": 46663,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "StringLiteral",
+      "offset": 46858,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "StringLiteral",
+      "offset": 46925,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "StringLiteral",
+      "offset": 47117,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "StringLiteral",
+      "offset": 47184,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayerEventController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48516,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/RewardData.swift",
+      "kind": "StringLiteral",
+      "offset": 246,
+      "length": 10,
+      "value": "\"Maio.RewardData\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 5,
+      "value": "10100"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 5,
+      "value": "10200"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 5,
+      "value": "10300"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 5,
+      "value": "10301"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 5,
+      "value": "10302"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 726,
+      "length": 5,
+      "value": "10400"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 5,
+      "value": "10500"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 935,
+      "length": 5,
+      "value": "10600"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1007,
+      "length": 5,
+      "value": "10700"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1084,
+      "length": 5,
+      "value": "10800"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1174,
+      "length": 5,
+      "value": "10900"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1248,
+      "length": 5,
+      "value": "11000"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1309,
+      "length": 5,
+      "value": "20100"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1388,
+      "length": 5,
+      "value": "20200"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1463,
+      "length": 5,
+      "value": "20300"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1612,
+      "length": 5,
+      "value": "20400"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1672,
+      "length": 5,
+      "value": "20401"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1755,
+      "length": 5,
+      "value": "20500"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 5,
+      "value": "10100"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 5,
+      "value": "10200"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 5,
+      "value": "10300"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 5,
+      "value": "10301"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 5,
+      "value": "10302"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 726,
+      "length": 5,
+      "value": "10400"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 5,
+      "value": "10500"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 935,
+      "length": 5,
+      "value": "10600"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1007,
+      "length": 5,
+      "value": "10700"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1084,
+      "length": 5,
+      "value": "10800"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1174,
+      "length": 5,
+      "value": "10900"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1248,
+      "length": 5,
+      "value": "11000"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1309,
+      "length": 5,
+      "value": "20100"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1388,
+      "length": 5,
+      "value": "20200"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1463,
+      "length": 5,
+      "value": "20300"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1612,
+      "length": 5,
+      "value": "20400"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1672,
+      "length": 5,
+      "value": "20401"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1755,
+      "length": 5,
+      "value": "20500"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 5,
+      "value": "10100"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 395,
+      "length": 5,
+      "value": "10200"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 497,
+      "length": 5,
+      "value": "10300"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 5,
+      "value": "10301"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 5,
+      "value": "10302"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 726,
+      "length": 5,
+      "value": "10400"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 807,
+      "length": 5,
+      "value": "10500"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 935,
+      "length": 5,
+      "value": "10600"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1007,
+      "length": 5,
+      "value": "10700"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1084,
+      "length": 5,
+      "value": "10800"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1174,
+      "length": 5,
+      "value": "10900"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1248,
+      "length": 5,
+      "value": "11000"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1309,
+      "length": 5,
+      "value": "20100"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1388,
+      "length": 5,
+      "value": "20200"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1463,
+      "length": 5,
+      "value": "20300"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1612,
+      "length": 5,
+      "value": "20400"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1672,
+      "length": 5,
+      "value": "20401"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/ErrorCode.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1755,
+      "length": 5,
+      "value": "20500"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/Player.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1605,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/Player.swift",
+      "kind": "Array",
+      "offset": 1709,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/Player.swift",
+      "kind": "FloatLiteral",
+      "offset": 2054,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/Player.swift",
+      "kind": "StringLiteral",
+      "offset": 19221,
+      "length": 24,
+      "value": "\"Maio.WKNavigationDelegateImpl\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/MaioVersion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/MaioVersion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/MaioVersion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 463,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/MaioVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/MaioVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 11,
+      "value": "\"Maio.MaioVersion\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/FullscreenAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2035,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/FullscreenAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2078,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/AVPlayerNativePlayer.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 20,
+      "value": "\"Maio.AVPlayerNativePlayer\""
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/Player\/PlayableView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1081,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/MaioInterstitial.swift",
+      "kind": "StringLiteral",
+      "offset": 1955,
+      "length": 16,
+      "value": "\"Maio.MaioInterstitial\""
+    }
+  ]
+}

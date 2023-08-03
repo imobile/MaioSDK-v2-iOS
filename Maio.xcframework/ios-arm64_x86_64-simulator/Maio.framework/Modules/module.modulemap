@@ -1,0 +1,11 @@
+framework module Maio {
+  umbrella header "Maio.h"
+
+  export *
+  module * { export * }
+}
+
+module Maio.Swift {
+  header "Maio-Swift.h"
+  requires objc
+}

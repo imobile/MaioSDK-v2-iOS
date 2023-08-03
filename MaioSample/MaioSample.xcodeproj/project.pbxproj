@@ -13,6 +13,7 @@
 		C23D86892A7BF50900633F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23D86872A7BF50900633F83 /* Main.storyboard */; };
 		C23D868B2A7BF50900633F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23D868A2A7BF50900633F83 /* Assets.xcassets */; };
 		C23D868E2A7BF50900633F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C23D868C2A7BF50900633F83 /* LaunchScreen.storyboard */; };
+		C23D86972A7C015F00633F83 /* Maio.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23D86962A7C015F00633F83 /* Maio.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C23D868A2A7BF50900633F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C23D868D2A7BF50900633F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C23D868F2A7BF50900633F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C23D86962A7C015F00633F83 /* Maio.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Maio.xcframework; path = ../Maio.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23D86972A7C015F00633F83 /* Maio.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				C23D86802A7BF50900633F83 /* MaioSample */,
 				C23D867F2A7BF50900633F83 /* Products */,
+				C23D86952A7C015F00633F83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				C23D868F2A7BF50900633F83 /* Info.plist */,
 			);
 			path = MaioSample;
+			sourceTree = "<group>";
+		};
+		C23D86952A7C015F00633F83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C23D86962A7C015F00633F83 /* Maio.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -13,7 +13,7 @@ let zoneIdForRewarded = "DemoPublisherZone"
 
 class ViewController: UIViewController {
 
-    var rewarded: MaioRewarded?
+    private var rewarded: MaioRewarded?
 
     override func viewDidLoad() {
         super.viewDidLoad()

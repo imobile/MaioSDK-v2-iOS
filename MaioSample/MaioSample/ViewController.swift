@@ -28,5 +28,13 @@ class ViewController: UIViewController {
     @IBAction func showRewarded(_ sender: Any) {
         rewarded?.show(viewContext: self, callback: nil)
     }
+
+    fileprivate func logging(content: String) {
+        let dateformatter = DateFormatter()
+        dateformatter.dateFormat = "yyyy-MM-dd HH:mm:ss.SSSSSSZ"
+        dateformatter.locale = Locale(identifier: "ja_JP")
+
+        print(dateformatter.string(from: Date()), "[Logging]", "\(content)")
+    }
 }
 

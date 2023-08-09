@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="GTb-fb-Tah">
-                                <rect key="frame" x="0.0" y="59.000000000000007" width="393" height="96.666666666666686"/>
+                                <rect key="frame" x="0.0" y="59.000000000000014" width="393" height="221.33333333333337"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFm-Qq-Whn">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="34.333333333333336"/>
@@ -34,6 +34,22 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Show Rewarded"/>
                                         <connections>
                                             <action selector="showRewarded:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jaI-YM-r4h"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="er5-64-Sku">
+                                        <rect key="frame" x="0.0" y="124.66666666666664" width="393" height="34.333333333333329"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Load Interstitial"/>
+                                        <connections>
+                                            <action selector="loadInterstitial:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ubk-Bq-B1f"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="luf-Y0-xsg">
+                                        <rect key="frame" x="0.0" y="187" width="393" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Show Interstitial"/>
+                                        <connections>
+                                            <action selector="showInterstitial:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lvj-nR-38r"/>
                                         </connections>
                                     </button>
                                 </subviews>

@@ -10,10 +10,12 @@ import UIKit
 import Maio
 
 let zoneIdForRewarded = "DemoPublisherZone"
+let zoneIdForInterstitial = "DemoPublisherZoneSkippable"
 
 class ViewController: UIViewController {
 
     private let rewarded = MyRewardedAd()
+    private let interstitial = MyInterstitialAd()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +28,14 @@ class ViewController: UIViewController {
 
     @IBAction func showRewarded(_ sender: Any) {
         rewarded.showAd(viewController: self)
+    }
+
+    @IBAction func loadInterstitial(_ sender: Any) {
+        interstitial.loadAd()
+    }
+
+    @IBAction func showInterstitial(_ sender: Any) {
+        interstitial.showAd(viewController: self)
     }
 
 }
@@ -70,5 +80,36 @@ extension MyRewardedAd: MaioRewardedLoadCallback, MaioRewardedShowCallback {
 
     func didReward(_ ad: MaioRewarded, reward: RewardData) {
         logging(content: "maio rewarded did reward: \(reward.value)")
+    }
+}
+
+fileprivate class MyInterstitialAd {
+    private var interstitial: MaioInterstitial?
+
+    func loadAd () {
+        let request = MaioRequest(zoneId: zoneIdForInterstitial, testMode: true)
+        interstitial = MaioInterstitial.loadAd(request: request, callback: self)
+    }
+
+    func showAd(viewController: UIViewController) {
+        interstitial?.show(viewContext: viewController, callback: self)
+    }
+}
+
+extension MyInterstitialAd: MaioInterstitialLoadCallback, MaioInterstitialShowCallback {
+    func didLoad(_ ad: MaioInterstitial) {
+        logging(content: "maio interstitial did load")
+    }
+
+    func didFail(_ ad: MaioInterstitial, errorCode: Int) {
+        logging(content: "maio interstitial did fail: errorcode: \(errorCode)")
+    }
+
+    func didOpen(_ ad: MaioInterstitial) {
+        logging(content: "maio interstitial did open")
+    }
+
+    func didClose(_ ad: MaioInterstitial) {
+        logging(content: "maio interstitial did close")
     }
 }

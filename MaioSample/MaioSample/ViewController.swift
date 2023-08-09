@@ -59,6 +59,10 @@ fileprivate class MyRewardedAd {
     func showAd(viewController: UIViewController) {
         rewarded?.show(viewContext: viewController, callback: self)
     }
+
+    func dispose() {
+        rewarded = nil
+    }
 }
 
 extension MyRewardedAd: MaioRewardedLoadCallback, MaioRewardedShowCallback {
@@ -76,6 +80,7 @@ extension MyRewardedAd: MaioRewardedLoadCallback, MaioRewardedShowCallback {
 
     func didClose(_ ad: MaioRewarded) {
         logging(content: "maio rewarded did close")
+        self.dispose()
     }
 
     func didReward(_ ad: MaioRewarded, reward: RewardData) {
@@ -94,6 +99,10 @@ fileprivate class MyInterstitialAd {
     func showAd(viewController: UIViewController) {
         interstitial?.show(viewContext: viewController, callback: self)
     }
+
+    func dispose() {
+        interstitial = nil
+    }
 }
 
 extension MyInterstitialAd: MaioInterstitialLoadCallback, MaioInterstitialShowCallback {
@@ -111,5 +120,6 @@ extension MyInterstitialAd: MaioInterstitialLoadCallback, MaioInterstitialShowCa
 
     func didClose(_ ad: MaioInterstitial) {
         logging(content: "maio interstitial did close")
+        self.dispose()
     }
 }

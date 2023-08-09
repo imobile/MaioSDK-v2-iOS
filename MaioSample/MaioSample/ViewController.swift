@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     @IBAction func loadRewarded(_ sender: Any) {
         let request = MaioRequest(zoneId: zoneIdForRewarded, testMode: true)
-        rewarded = MaioRewarded.loadAd(request: request, callback: nil)
+        rewarded = MaioRewarded.loadAd(request: request, callback: self)
     }
 
     @IBAction func showRewarded(_ sender: Any) {
@@ -38,3 +38,13 @@ class ViewController: UIViewController {
     }
 }
 
+
+extension ViewController: MaioRewardedLoadCallback {
+    func didLoad(_ ad: MaioRewarded) {
+        self.logging(content: "maio rewarded did load")
+    }
+
+    func didFail(_ ad: MaioRewarded, errorCode: Int) {
+        self.logging(content: "maio rewarded did fail: errorcode: \(errorCode)")
+    }
+}

@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showRewarded(_ sender: Any) {
-        rewarded?.show(viewContext: self, callback: nil)
+        rewarded?.show(viewContext: self, callback: self)
     }
 
     fileprivate func logging(content: String) {
@@ -39,12 +39,24 @@ class ViewController: UIViewController {
 }
 
 
-extension ViewController: MaioRewardedLoadCallback {
+extension ViewController: MaioRewardedLoadCallback, MaioRewardedShowCallback {
     func didLoad(_ ad: MaioRewarded) {
         self.logging(content: "maio rewarded did load")
     }
 
     func didFail(_ ad: MaioRewarded, errorCode: Int) {
         self.logging(content: "maio rewarded did fail: errorcode: \(errorCode)")
+    }
+
+    func didOpen(_ ad: MaioRewarded) {
+        self.logging(content: "maio rewarded did open")
+    }
+
+    func didClose(_ ad: MaioRewarded) {
+        self.logging(content: "maio rewarded did close")
+    }
+
+    func didReward(_ ad: MaioRewarded, reward: RewardData) {
+        self.logging(content: "maio rewarded did reward: \(reward.value)")
     }
 }

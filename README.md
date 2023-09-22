@@ -4,7 +4,7 @@
 
 ## What is maio?
 
-[maio](https://maio.jp/) はこれまでのバナー広告に加え、新たな広告収益の機会を得ることが可能な動画広告プラットフォームです。
+[maio](https://adpf-info.i-mobile.co.jp/) はこれまでのバナー広告に加え、新たな広告収益の機会を得ることが可能な動画広告プラットフォームです。
 バナー広告と違い、デベロッパーの設定したタイミングで、動画広告をコンテンツの一部として配信することができます。
 
 また、動画広告再生後にアプリ内通貨やライフ等の報酬（リワード）をユーザーに還元する事で、動画広告の再生数が増加し、収益の最大化が見込めます。
@@ -84,7 +84,7 @@ fileprivate class MyRewardedAd {
 ## Contact Us
 
 - General
-    - https://maio.jp/#contactWrap
+    - https://www.i-mobile.co.jp/inquiry.html
 - Technical Trouble Shooting
     - https://maio.jp/techsupport/index.html
 

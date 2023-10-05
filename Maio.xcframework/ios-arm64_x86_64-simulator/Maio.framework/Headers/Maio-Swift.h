@@ -311,6 +311,7 @@ SWIFT_PROTOCOL("_TtP4Maio28MaioInterstitialShowCallback_")
 /// \param ad 呼び出し元の広告インスタンス。
 ///
 - (void)didClose:(MaioInterstitial * _Nonnull)ad;
+- (void)didClick:(MaioInterstitial * _Nonnull)ad SWIFT_DEPRECATED;
 /// 広告の表示に失敗した時に呼ばれるイベント。
 /// \param ad 呼び出し元の広告インスタンス。
 ///
@@ -413,6 +414,7 @@ SWIFT_PROTOCOL("_TtP4Maio24MaioRewardedShowCallback_")
 /// \param reward maio 管理画面にてゾーンに設定したリワード データ。
 ///
 - (void)didReward:(MaioRewarded * _Nonnull)ad reward:(RewardData * _Nonnull)reward;
+- (void)didClick:(MaioRewarded * _Nonnull)ad SWIFT_DEPRECATED;
 /// 広告の表示に失敗した時に呼ばれるイベント。
 /// \param ad 呼び出し元の広告インスタンス。
 ///
@@ -771,6 +773,7 @@ SWIFT_PROTOCOL("_TtP4Maio28MaioInterstitialShowCallback_")
 /// \param ad 呼び出し元の広告インスタンス。
 ///
 - (void)didClose:(MaioInterstitial * _Nonnull)ad;
+- (void)didClick:(MaioInterstitial * _Nonnull)ad SWIFT_DEPRECATED;
 /// 広告の表示に失敗した時に呼ばれるイベント。
 /// \param ad 呼び出し元の広告インスタンス。
 ///
@@ -873,6 +876,7 @@ SWIFT_PROTOCOL("_TtP4Maio24MaioRewardedShowCallback_")
 /// \param reward maio 管理画面にてゾーンに設定したリワード データ。
 ///
 - (void)didReward:(MaioRewarded * _Nonnull)ad reward:(RewardData * _Nonnull)reward;
+- (void)didClick:(MaioRewarded * _Nonnull)ad SWIFT_DEPRECATED;
 /// 広告の表示に失敗した時に呼ばれるイベント。
 /// \param ad 呼び出し元の広告インスタンス。
 ///

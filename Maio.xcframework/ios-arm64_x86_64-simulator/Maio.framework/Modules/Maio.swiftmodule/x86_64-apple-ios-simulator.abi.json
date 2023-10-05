@@ -668,6 +668,39 @@
           },
           {
             "kind": "Function",
+            "name": "didClick",
+            "printedName": "didClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioRewarded",
+                "printedName": "Maio.MaioRewarded",
+                "usr": "c:@M@Maio@objc(cs)MaioRewarded"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioRewardedShowCallback(im)didClick:",
+            "mangledName": "$s4Maio0A20RewardedShowCallbackP8didClickyyAA0aB0CF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioRewardedShowCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioRewardedShowCallback>",
+            "deprecated": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "Available"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didFail",
             "printedName": "didFail(_:errorCode:)",
             "children": [
@@ -1809,6 +1842,39 @@
           },
           {
             "kind": "Function",
+            "name": "didClick",
+            "printedName": "didClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MaioInterstitial",
+                "printedName": "Maio.MaioInterstitial",
+                "usr": "c:@M@Maio@objc(cs)MaioInterstitial"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Maio@objc(pl)MaioInterstitialShowCallback(im)didClick:",
+            "mangledName": "$s4Maio0A24InterstitialShowCallbackP8didClickyyAA0aB0CF",
+            "moduleName": "Maio",
+            "genericSig": "<τ_0_0 where τ_0_0 : Maio.MaioInterstitialShowCallback>",
+            "sugared_genericSig": "<Self where Self : Maio.MaioInterstitialShowCallback>",
+            "deprecated": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "Available"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didFail",
             "printedName": "didFail(_:errorCode:)",
             "children": [
@@ -2193,7 +2259,7 @@
     {
       "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/MaioRewarded.swift",
       "kind": "StringLiteral",
-      "offset": 2394,
+      "offset": 2479,
       "length": 12,
       "value": "\"Maio.MaioRewarded\""
     },
@@ -2851,14 +2917,14 @@
     {
       "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/FullscreenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 2035,
+      "offset": 2096,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/FullscreenAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 2078,
+      "offset": 2139,
       "length": 5,
       "value": "false"
     },
@@ -2879,7 +2945,7 @@
     {
       "filePath": "\/Users\/kasamatsu\/ghq\/im-ttmskk\/github.com\/imobile\/maio\/maio.SDK.V2\/ios\/src\/Maio\/Maio\/MaioInterstitial.swift",
       "kind": "StringLiteral",
-      "offset": 1955,
+      "offset": 2043,
       "length": 16,
       "value": "\"Maio.MaioInterstitial\""
     }

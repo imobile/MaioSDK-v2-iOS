@@ -32,6 +32,8 @@ import _StringProcessing
   @objc optional func didOpen(_ ad: Maio.MaioRewarded)
   @objc optional func didClose(_ ad: Maio.MaioRewarded)
   @objc optional func didReward(_ ad: Maio.MaioRewarded, reward: Maio.RewardData)
+  @available(*, deprecated)
+  @objc optional func didClick(_ ad: Maio.MaioRewarded)
   @objc optional func didFail(_ ad: Maio.MaioRewarded, errorCode: Swift.Int)
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MaioRewarded : ObjectiveC.NSObject {
@@ -62,6 +64,8 @@ import _StringProcessing
 @objc public protocol MaioInterstitialShowCallback {
   @objc optional func didOpen(_ ad: Maio.MaioInterstitial)
   @objc optional func didClose(_ ad: Maio.MaioInterstitial)
+  @available(*, deprecated)
+  @objc optional func didClick(_ ad: Maio.MaioInterstitial)
   @objc optional func didFail(_ ad: Maio.MaioInterstitial, errorCode: Swift.Int)
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MaioInterstitial : ObjectiveC.NSObject {

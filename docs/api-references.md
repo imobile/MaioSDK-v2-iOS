@@ -83,4 +83,8 @@ _2.0.0 +_
 func toString() -> String
 ```
 
+SDKのバージョンを表す `String` を返す。
+
+#### Return Value
+
 SDK のバージョンを示す、[Semantic Versioning 2.0.0](https://semver.org/lang/ja/) 形式の文字列。

@@ -275,6 +275,50 @@ maio 管理画面にて当該ゾーンに設定したリワード データ文�
 未設定の場合は空文字。
 
 
+## MaioRewardedLoadCallback
+
+_2.0.0 +_
+
+```swift
+protocol MaioRewardedLoadCallback: AnyObject
+```
+
+リワード広告の読み込みに関するコールバックを処理するプロトコル。
+
+### optional func didLoad(_ ad:MaioRewarded)
+
+_2.0.0 +_
+
+```swift
+optional func didLoad(_ ad:MaioRewarded)
+```
+
+広告の読み込みが完了した時に呼ばれるイベント。
+
+#### Parameters
+
+- `ad`
+    - 呼び出し元の広告インスタンス。
+
+
+### optional func didFail(_ ad:MaioRewarded, errorCode: Int)
+
+_2.0.0 +_
+
+```swift
+optional func didFail(_ ad:MaioRewarded, errorCode: Int)
+```
+
+広告の読み込みが完了した時に呼ばれるイベント。
+
+#### Parameters
+
+- `ad`
+    - 呼び出し元の広告インスタンス。
+- `errorCode`
+    - エラー理由を示す値。詳細は `MaioErrorCode` を参照。
+
+
 ## MaioVersion
 
 _2.0.0 +_

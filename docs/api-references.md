@@ -143,7 +143,7 @@ optional func didFail(_ ad:MaioInterstitial, errorCode: Int)
 - `ad`
     - 呼び出し元の広告インスタンス。
 - `errorCode`
-    - エラー理由を示す値。詳細は `MaioErrorCode` を参照。
+    - エラー理由を示す値。詳細は `ErrorCode` を参照。
 
 
 ## MaioInterstitialShowCallback
@@ -202,7 +202,7 @@ optional func didFail(_ ad:MaioInterstitial, errorCode: Int)
 - `ad`
     - 呼び出し元の広告インスタンス。
 - `errorCode`
-    - エラー理由を示す値。詳細は `MaioErrorCode` を参照。
+    - エラー理由を示す値。詳細は `ErrorCode` を参照。
 
 ## MaioRewarded
 
@@ -316,7 +316,7 @@ optional func didFail(_ ad:MaioRewarded, errorCode: Int)
 - `ad`
     - 呼び出し元の広告インスタンス。
 - `errorCode`
-    - エラー理由を示す値。詳細は `MaioErrorCode` を参照。
+    - エラー理由を示す値。詳細は `ErrorCode` を参照。
 
 
 ## MaioRewardedShowCallback
@@ -394,7 +394,7 @@ optional func didFail(_ ad:MaioRewarded, errorCode: Int)
 - `ad`
     - 呼び出し元の広告インスタンス。
 - `errorCode`
-    - エラー理由を示す値。詳細は `MaioErrorCode` を参照。
+    - エラー理由を示す値。詳細は `ErrorCode` を参照。
 
 
 ## MaioVersion
@@ -432,3 +432,39 @@ SDKのバージョンを表す `String` を返す。
 #### Return Value
 
 SDK のバージョンを示す、[Semantic Versioning 2.0.0](https://semver.org/lang/ja/) 形式の文字列。
+
+
+## ErrorCode
+
+_2.0.0 +_
+
+```swift
+typealias ErrorCode = Int
+```
+
+コールバックから得られるエラーコード。
+
+- 先頭の数字は発生する場面を表しています。
+    - `1xxxx` : 広告の読み込み時に起こるもの
+    - `2xxxx` : 広告の表示時に起こるもの
+- 各エラーコードの末尾にある `xx` は、発生箇所やエラー要因の特定に用います。
+
+|-----------|----------------------------------------------------------------------------------|
+| ErrorCode | 意味                                                                             |
+|-----------|----------------------------------------------------------------------------------|
+| 0         | 不明、あるいは公開を想定していないもの。包括的なエラー処理などによって発生する。 |
+| 101xx     | ネットワーク接続がありません。                                                   |
+| 102xx     | ネットワーク接続がタイムアウトしました。                                         |
+| 103xx     | 広告の取得中に中断されました。                                                   |
+| 104xx     | サーバーから正しくないレスポンスが返ってきました。                               |
+| 105xx     | 存在しないゾーンが指定されました。                                               |
+| 106xx     | 無効なゾーンが指定されました。                                                   |
+| 107xx     | 表示可能な広告がありません。                                                     |
+| 108xx     | `MaioRequest` が `nil` でした。                                                  |
+| 109xx     | ディスク容量が不十分でした。                                                     |
+| 110xx     | 対応していない iOS バージョンです。                                              |
+| 201xx     | 広告の有効期限が切れました。                                                     |
+| 202xx     | 広告の準備ができていません。                                                     |
+| 203xx     | 広告はすでに表示されています。                                                   |
+| 204xx     | 広告の再生中に問題が発生しました。                                               |
+| 205xx     | `viewController` が `nil` でした。                                               |

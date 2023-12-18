@@ -47,17 +47,16 @@ READEME.md に記載しております。
 なお、Build target は iOS 12.0 以上としてるため、組み込み自体は左記のバージョン以上であれば可能です。
 
 ## 在庫切れなどによる動画広告の再生可否を確認するには、どうすればよいでしょうか
-以下のメソッドでご確認いただけます。
 
-- [maioDidChangeCanShow:newValue:](https://github.com/makeanimpressionon/maio-iOS-SDK/wiki/API-Reference#--maiodidchangecanshownewvalue) 再生可能な広告の有無を受動的にチェックするイベント。
-- [canShow](https://github.com/makeanimpressionon/maio-iOS-SDK/wiki/API-Reference#-canshow) 再生可能な広告の有無を能動的にチェックするメソッド。
+`MaioRewardedLoadCallback` および `MaioInterstitialLoadCallback` の `didLoad(_:)` メソッドを実装することで再生可能になったことが通知されます。
 
-どちらをご使用いただいても問題ありませんので、アプリ側のシナリオに適したメソッドを選択ください。
+- [MaioRewardedLoadCallback.didLoad(_:MaioRewarded)](https://github.com/imobile/MaioSDK-v2-iOS/wiki/API-Rererences#optional-func-didload_-admaiorewarded)
+- [MaioInterstitialCallback.didLoad(_:MaioInterstitial)](https://github.com/imobile/MaioSDK-v2-iOS/wiki/API-Rererences#optional-func-didload_-admaiointerstitial)
 
-尚、これらのメソッドは既定のゾーンの広告表示準備が整っていれば `YES` 、そうでなければ `NO` を返します。
-`NO` のケースは、在庫が無い（キャンペーンが1件も割り当てられなかった）場合のほか、フリークエンシー／リーセンシーによる制限による場合や広告のダウンロード中である場合も含まれます。 
+読み込みができなかった場合は、 `didFail(_:errorCode:)` メソッドにて通知されます。
 
-※ [maioDidInitialize](https://github.com/imobile-maio/maio-iOS-SDK/wiki/API-Reference#--maiodidinitialize) イベントは、広告表示準備の完了を通知しているため、再生可能な広告が無い場合も呼ばれます。
+- [MaioRewardedLoadCallback.didFail(_:MaioRewarded, errorCode:Int)](https://github.com/imobile/MaioSDK-v2-iOS/wiki/API-Rererences#optional-func-didfail_-admaiorewarded-errorcode-int)
+- [MaioInterstitialLoadCallback.didFail(_:MaioInterstitial, errorCode:Int)](https://github.com/imobile/MaioSDK-v2-iOS/wiki/API-Rererences#optional-func-didfail_-admaiointerstitial-errorcode-int)
 
 ## SDK の初期化はどうすればよいですか？
 

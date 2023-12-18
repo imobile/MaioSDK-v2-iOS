@@ -22,8 +22,8 @@
 - [MaioInterstitialShowCallback.didFail(_:MaioInterstitial, errorCode:Int)](https://github.com/imobile/MaioSDK-v2-iOS/wiki/API-Rererences#optional-func-didfail_-admaiointerstitial-errorcode-int-1)
 
 ## デリゲートメソッドを実装したのに呼ばれません
-[MaioDelegate](https://github.com/imobile-maio/maio-iOS-SDK/wiki/API-Reference#maiodelegate-protocol-1) の設定が完了していない可能性がございます。  
-[2. 広告の表示方法](https://github.com/imobile-maio/maio-iOS-SDK/wiki/Get-Started#2-%E5%BA%83%E5%91%8A%E3%81%AE%E8%A1%A8%E7%A4%BA%E6%96%B9%E6%B3%95) の記載の通りデリゲートが設定されているかご確認ください。
+
+`MaioRewarded` および `MaioInterstitial` はデリゲートオブジェクトを強参照しません。インスタンスの寿命に注意してください。
 
 ## 新規 zoneID の発行方法
 

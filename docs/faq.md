@@ -16,9 +16,10 @@
 
 ## 広告が表示されません
 
-SDK の初期化から広告の配信準備が完了するまで、少々時間が必要です([参考](#sdk-%E3%81%AE%E5%88%9D%E6%9C%9F%E5%8C%96%E5%AE%8C%E4%BA%86%E3%81%BE%E3%81%A7%E3%81%AB%E3%81%8B%E3%81%8B%E3%82%8B%E6%99%82%E9%96%93%E3%81%AF%E3%81%A9%E3%81%AE%E7%A8%8B%E5%BA%A6%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E3%81%8B))。  
-しばらく経過しても広告が再生できない場合には、原因を特定するために [エラーコード](https://github.com/imobile-maio/maio-iOS-SDK/wiki/API-Reference#maiofailreason-enum-1) をご参照ください。
+再生時に問題が発生した場合は、 `MaioRewardedShowCallback` および `MaioInterstitialShowCallback` の `didFail(_:errorCode:)` メソッドを実装することで通知されます。
 
+- [MaioRewardedShowCallback.didFail(_:MaioRewarded, errorCode:Int)](https://github.com/imobile/MaioSDK-v2-iOS/wiki/API-Rererences#optional-func-didfail_-admaiorewarded-errorcode-int-1)
+- [MaioInterstitialShowCallback.didFail(_:MaioInterstitial, errorCode:Int)](https://github.com/imobile/MaioSDK-v2-iOS/wiki/API-Rererences#optional-func-didfail_-admaiointerstitial-errorcode-int-1)
 
 ## デリゲートメソッドを実装したのに呼ばれません
 [MaioDelegate](https://github.com/imobile-maio/maio-iOS-SDK/wiki/API-Reference#maiodelegate-protocol-1) の設定が完了していない可能性がございます。  

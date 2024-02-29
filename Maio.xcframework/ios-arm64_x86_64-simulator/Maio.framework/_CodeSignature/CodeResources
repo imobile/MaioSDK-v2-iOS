@@ -122,7 +122,7 @@
 		</data>
 		<key>Modules/Maio.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gCusx9WVAPgaDGfbRUsAXOuLvQk=
+		CsJ5gh4hZSjM6QPwbvJlAadekmA=
 		</data>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -142,11 +142,15 @@
 		</data>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		j3YDR3g69qO6j/YU+s+LaDoW9Qw=
+		gYG2LHMKfZeEA/F27n6goILeGto=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		BRflBCvRm+JC3oad/Dzxh9RD6HA=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		UIS53iFQBzQQES3a6nJ3W61UtGM=
 		</data>
 		<key>force_close_button.png</key>
 		<data>
@@ -355,7 +359,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mwINiiCXtpobzI41pmMtXjNAXovrEk/kIdRIUHWE55Q=
+			xuz+ogdIhtpJSzsHq1MWXo+UyLO28dzCPh8l5wDTtdo=
 			</data>
 		</dict>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -390,7 +394,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sz81jeIxK4qoU3BjG3XPucUNsj0Bt7h2ZZjsRlmzacA=
+			5exDU0NkwHtMj+E5n2AfWnZFswKtQYlvri4aKTdqWw8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -398,6 +402,13 @@
 			<key>hash2</key>
 			<data>
 			UAjy/jfTRQ6UsgxM5rA6BTHNqXFibRQdePa83oSSO9Y=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			swEllPqWs4RqYwY5+eyOYUQExDD3dQjiNjMny0VxgFE=
 			</data>
 		</dict>
 		<key>force_close_button.png</key>

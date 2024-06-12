@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Maio
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -16,6 +16,7 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @objcMembers public class MaioRequest : ObjectiveC.NSObject {
   @objc final public let zoneId: Swift.String
   @objc final public let testMode: Swift.Bool
@@ -37,8 +38,8 @@ import _StringProcessing
   @objc optional func didFail(_ ad: Maio.MaioRewarded, errorCode: Swift.Int)
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MaioRewarded : ObjectiveC.NSObject {
-  @objc public static func loadAd(request: Maio.MaioRequest, callback: Maio.MaioRewardedLoadCallback?) -> Maio.MaioRewarded
-  @objc public func show(viewContext context: UIKit.UIViewController, callback: Maio.MaioRewardedShowCallback?)
+  @objc public static func loadAd(request: Maio.MaioRequest, callback: (any Maio.MaioRewardedLoadCallback)?) -> Maio.MaioRewarded
+  @objc public func show(viewContext context: UIKit.UIViewController, callback: (any Maio.MaioRewardedShowCallback)?)
   @objc public var request: Maio.MaioRequest {
     @objc get
   }
@@ -72,7 +73,7 @@ import _StringProcessing
   @objc public var request: Maio.MaioRequest {
     @objc get
   }
-  @objc public static func loadAd(request: Maio.MaioRequest, callback: Maio.MaioInterstitialLoadCallback?) -> Maio.MaioInterstitial
-  @objc public func show(viewContext context: UIKit.UIViewController, callback: Maio.MaioInterstitialShowCallback?)
+  @objc public static func loadAd(request: Maio.MaioRequest, callback: (any Maio.MaioInterstitialLoadCallback)?) -> Maio.MaioInterstitial
+  @objc public func show(viewContext context: UIKit.UIViewController, callback: (any Maio.MaioInterstitialShowCallback)?)
   @objc deinit
 }

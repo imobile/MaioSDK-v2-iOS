@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Maio-Swift.h</key>
 		<data>
-		TQnk+TAzQMWuJSN3+A4KlG8K/L4=
+		IJDuX4oG9eEifGHcoS4Qf+yok1w=
 		</data>
 		<key>Headers/Maio.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lknkaop6CTYWM4seUswPiOzYiLU=
+		WggP36+AW4YinxEtbcIaBUEG+sc=
 		</data>
 		<key>Modules/Maio.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -110,19 +110,19 @@
 		</data>
 		<key>Modules/Maio.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7iTQW32m7lya1DCn0gh92EetFv0=
+		IlBDNaybp6lNaguNnMM6LsUkSic=
 		</data>
 		<key>Modules/Maio.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		4mD3oQouT+svAez+q8+QRrFFeyY=
+		sjxhatoYHhRhoaDYoTaxYHuaoag=
 		</data>
 		<key>Modules/Maio.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7iTQW32m7lya1DCn0gh92EetFv0=
+		IlBDNaybp6lNaguNnMM6LsUkSic=
 		</data>
 		<key>Modules/Maio.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ojfccSLmiGNbWQU3d8xaCRVPodw=
+		gvci3Hq69DHKu0AQL9kqBCixmGo=
 		</data>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -130,23 +130,23 @@
 		</data>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		aWikIzgivB7a4ysSbBmpyfMZ8BQ=
+		PzX6rjsvde8OhWP8N9HVoMj+Bxs=
 		</data>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		yUY79oQUMEgjf30xYZt+mJpKYOU=
+		mSsTyqVZFlcA268Bb/1IwBUxSBE=
 		</data>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aWikIzgivB7a4ysSbBmpyfMZ8BQ=
+		PzX6rjsvde8OhWP8N9HVoMj+Bxs=
 		</data>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i4ZeOZVszIkYBBLfkCC3R3SFtt0=
+		krY3/vV57fINWz3G66Gv+7NmidY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		BRflBCvRm+JC3oad/Dzxh9RD6HA=
+		lF0F014XedgVVQuKWt8l9Ior4FA=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -163,7 +163,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			87RAdPHwsaStuCqachDh78zcL844Y3nSeZe+dYPBYKY=
+			xFTF8iIsDc04XmtMdMZQpLX1IiRSMo+ShudrAzg9Gq4=
 			</data>
 		</dict>
 		<key>Headers/Maio.h</key>
@@ -338,28 +338,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IsGdG8lZ9uRRBp5GTrF0ae/aDjmYY5grikn8pkuq6H8=
+			Guh6M90FkQzNv6ELE3XZGvYYj51avS8P1CJdZVlRPbw=
 			</data>
 		</dict>
 		<key>Modules/Maio.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3rJI2BGB9mBMWRiu/s8FBC49WnaspVhqu7WELuKxSy8=
+			dapP9oV+J707MSHbIifdxwJLJWY65DHNgeWPMgk4U0o=
 			</data>
 		</dict>
 		<key>Modules/Maio.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IsGdG8lZ9uRRBp5GTrF0ae/aDjmYY5grikn8pkuq6H8=
+			Guh6M90FkQzNv6ELE3XZGvYYj51avS8P1CJdZVlRPbw=
 			</data>
 		</dict>
 		<key>Modules/Maio.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S9Cfp6/VPKfb4k4PAXJ7NQKqtxL7A/9apGvx14t2L44=
+			WPP2XU2LedQeueQ9muiIkF2IecCJ0D9CnV3u2sAVidM=
 			</data>
 		</dict>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -373,35 +373,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qm+NLfaIgB2aS9HgbcURP/t3FQjojpAlrFiZXcZY/rE=
+			nFDcknI90rvGVVlshFd3gCw5460u4aCuqKgimyMakJA=
 			</data>
 		</dict>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nhcYFnkZV+zAHLdZ3CXTkW3wAXtKsoHm8nwkJnAFxa4=
+			hO048f0dC0oWJ+wUuuhd08xQd0FxIXDgcBi/ETvdsZ0=
 			</data>
 		</dict>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qm+NLfaIgB2aS9HgbcURP/t3FQjojpAlrFiZXcZY/rE=
+			nFDcknI90rvGVVlshFd3gCw5460u4aCuqKgimyMakJA=
 			</data>
 		</dict>
 		<key>Modules/Maio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OxsrxNnRWcGrLV87eqlFFdf9Ehba7GOzw/q2QsTSPmM=
+			2FBUvsWdfPg9w6ib3WoJ5Qu8tcxZ5Rx+XFQFKj+z2lE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UAjy/jfTRQ6UsgxM5rA6BTHNqXFibRQdePa83oSSO9Y=
+			lH3DBtDDeMt0aiOllPD2vRoWH21UqX6ZZSc1Lneis1M=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>

@@ -12,6 +12,10 @@ maio-request.md
 maio-interstitial.md
 maio-interstitial-load-callback.md
 maio-interstitial-show-callback.md
+maio-rewarded.md
+reward-data.md
+maio-rewarded-load-callback.md
+maio-rewarded-show-callback.md
 EOT
 )
 

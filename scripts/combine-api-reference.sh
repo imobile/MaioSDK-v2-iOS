@@ -17,6 +17,7 @@ reward-data.md
 maio-rewarded-load-callback.md
 maio-rewarded-show-callback.md
 maio-version.md
+error-code.md
 EOT
 )
 

@@ -9,6 +9,9 @@ tmp_all=$(mktemp)
 # 目次から生成する
 toc=$(cat << EOT
 maio-request.md
+maio-interstitial.md
+maio-interstitial-load-callback.md
+maio-interstitial-show-callback.md
 EOT
 )
 

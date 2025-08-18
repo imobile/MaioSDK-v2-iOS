@@ -21,6 +21,9 @@ error-code.md
 EOT
 )
 
+# 目次に組み込んでいないファイルがあるかチェック
+diff <(echo "$toc" | sort) <(ls "$REFS" | sort) 1>&2
+
 echo "# API References" > "$tmp_all"
 
 {

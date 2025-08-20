@@ -52,7 +52,6 @@ let testMode : Bool
 パラメータに与えた、テストモードとしてリクエストするかどうかのフラグ。
 `true`: テストモード有効 `false`: 本番稼働
 
-
 ## MaioInterstitial
 
 _2.0.0 +_
@@ -101,7 +100,6 @@ func show(viewContext context: UIViewController, callback: MaioInterstitialShowC
 - `callback`
     - 広告の表示に関するイベントのコールバック。
 
-
 ## MaioInterstitialLoadCallback
 
 _2.0.0 +_
@@ -144,6 +142,7 @@ optional func didFail(_ ad:MaioInterstitial, errorCode: Int)
     - 呼び出し元の広告インスタンス。
 - `errorCode`
     - エラー理由を示す値。詳細は `ErrorCode` を参照。
+
 
 
 ## MaioInterstitialShowCallback
@@ -253,6 +252,7 @@ func show(viewContext context: UIViewController, callback: MaioRewardedShowCallb
     - 広告の表示に関するイベントのコールバック。
 
 
+
 ## RewardData
 
 _2.0.0 +_
@@ -273,7 +273,6 @@ let value: String
 
 maio 管理画面にて当該ゾーンに設定したリワード データ文字列。
 未設定の場合は空文字。
-
 
 ## MaioRewardedLoadCallback
 
@@ -317,6 +316,7 @@ optional func didFail(_ ad:MaioRewarded, errorCode: Int)
     - 呼び出し元の広告インスタンス。
 - `errorCode`
     - エラー理由を示す値。詳細は `ErrorCode` を参照。
+
 
 
 ## MaioRewardedShowCallback
@@ -397,6 +397,272 @@ optional func didFail(_ ad:MaioRewarded, errorCode: Int)
     - エラー理由を示す値。詳細は `ErrorCode` を参照。
 
 
+## MaioBannerSize
+
+_2.1.7 +_
+
+```swift
+class MaioBannerSize: NSObject
+```
+
+バナー広告のサイズを表すクラス。
+
+### static let banner: MaioBannerSize
+
+_2.1.7 +_
+
+```swift
+static let banner: MaioBannerSize
+```
+
+320 x 50 の大きさを表す。
+
+### static let bigBanner: MaioBannerSize
+
+_2.1.7 +_
+
+```swift
+static let bigBanner: MaioBannerSize
+```
+
+320 x 100 の大きさを表す。
+
+### static let mediumRectangle: MaioBannerSize
+
+_2.1.7 +_
+
+```swift
+static let mediumRectangle: MaioBannerSize
+```
+
+300 x 250 の大きさを表す。
+
+## MaioBannerView
+
+_2.1.7 +_
+
+```swift
+class MaioBannerView: UIView
+```
+
+バナー広告の読み込みと表示を管理するクラス。
+
+### @IBInspectable var zoneId: String?
+
+_2.1.7 +_
+
+```swift
+@IBInspectable var zoneId: String?
+```
+
+maio の管理画面から発行されるゾーン識別子。
+
+### var size: MaioBannerSize?
+
+_2.1.7 +_
+
+```swift
+var size: MaioBannerSize?
+```
+
+要求するバナーのサイズ。
+
+### var listener: MaioBannerListener?
+
+_2.1.7 +_
+
+```swift
+var listener: MaioBannerListener?
+```
+
+バナー広告のイベントリスナー。
+
+### var rootViewController: UIViewController?
+
+_2.1.7 +_
+
+```swift
+var rootViewController: UIViewController?
+```
+
+AppStore をアプリ内で表示する際のベースとなる `UIViewController`。
+
+### var isReady: Bool
+
+_2.1.7 +_
+
+```swift
+var isReady: Bool
+```
+
+バナー広告が読み込み済みかどうかを示すフラグ。`true`: 読み込み済み `false`: 未読み込み。
+
+### init(zoneId: String? = nil, size: MaioBannerSize? = nil)
+
+_2.1.7 +_
+
+```swift
+init(zoneId: String? = nil, size: MaioBannerSize? = nil)
+```
+
+コードベースで `MaioBannerView` を生成する際に用いるコンストラクタ。
+
+#### Parameters
+
+- `zoneId`
+    - maio の管理画面から発行されるゾーン識別子
+- `size`
+    - 要求するバナーのサイズ
+
+
+### func load(test: Bool = false)
+
+_2.1.7 +_
+
+```swift
+func load(test: Bool = false)
+```
+
+#### Parameters
+
+- `test`
+    - テストモードとしてリクエストするかどうかのフラグ。`true`: テストモード有効 `false`: 本番稼働。
+
+### func pause()
+
+_2.1.7 +_
+
+```swift
+func pause()
+```
+
+広告に、一時停止のメッセージを送ります。
+
+### func resume()
+
+_2.1.7 +_
+
+```swift
+func resume()
+```
+
+広告に、再開のメッセージを送ります。
+
+### func destroy()
+
+_2.1.7 +_
+
+```swift
+func destroy()
+```
+
+手動で広告のリソースを破棄します。以後、インスタンスは広告を動作させられません。
+
+## MaioBannerListener
+
+_2.1.7 +_
+
+```swift
+protocol MaioBannerListener: AnyObject
+```
+
+バナー広告に関する通知を受け取るためのプロトコル。
+
+### optional func didLoad(_ ad: MaioBannerView)
+
+_2.1.7 +_
+
+```swift
+optional func didLoad(_ ad: MaioBannerView)
+```
+
+広告の読み込みが完了した時に呼ばれるイベント。
+
+#### Parameters
+
+- `ad`
+    - 呼び出し元の広告インスタンス
+
+### optional func didFailToLoad(_ ad: MaioBannerView, errorCode: Int)
+
+_2.1.7 +_
+
+```swift
+optional func didFailToLoad(_ ad: MaioBannerView, errorCode: Int)
+```
+
+広告の読み込みに失敗した時に呼ばれるイベント。
+
+#### Parameters
+
+- `ad`
+    - 呼び出し元の広告インスタンス
+- `errorCode`
+    - エラー理由を示す値。詳細は `ErrorCode` を参照。
+
+### optional func didMakeImpression(_ ad: MaioBannerView)
+
+_2.1.7 +_
+
+```swift
+optional func didMakeImpression(_ ad: MaioBannerView)
+```
+
+広告のインプレッションが記録された時に呼ばれるイベント。
+
+#### Parameters
+
+- `ad`
+    - 呼び出し元の広告インスタンス
+
+### optional func didClick(_ ad: MaioBannerView)
+
+_2.1.7 +_
+
+```swift
+optional func didClick(_ ad: MaioBannerView)
+```
+
+広告のクリックが発生した時に呼ばれるイベント。
+
+#### Parameters
+
+- `ad`
+    - 呼び出し元の広告インスタンス
+
+
+### optional func didLeaveApplication(_ ad: MaioBannerView)
+
+_2.1.7 +_
+
+```swift
+optional func didLeaveApplication(_ ad: MaioBannerView)
+```
+
+アプリケーションからの離脱が発生した時に呼ばれるイベント。
+
+#### Parameters
+
+- `ad`
+    - 呼び出し元の広告インスタンス
+
+### optional func didFailToShow(_ ad: MaioBannerView, errorCode: Int)
+
+_2.1.7 +_
+
+```swift
+optional func didFailToShow(_ ad: MaioBannerView, errorCode: Int)
+```
+
+広告の表示に失敗した時に呼ばれるイベント。
+
+#### Parameters
+
+- `ad`
+    - 呼び出し元の広告インスタンス
+- `errorCode`
+    - エラー理由を示す値。詳細は `ErrorCode` を参照。
+
 ## MaioVersion
 
 _2.0.0 +_
@@ -433,7 +699,6 @@ SDKのバージョンを表す `String` を返す。
 
 SDK のバージョンを示す、[Semantic Versioning 2.0.0](https://semver.org/lang/ja/) 形式の文字列。
 
-
 ## ErrorCode
 
 _2.0.0 +_
@@ -462,6 +727,7 @@ typealias ErrorCode = Int
 | 108xx     | `MaioRequest` が `nil` でした。                                                  |
 | 109xx     | ディスク容量が不十分でした。                                                     |
 | 110xx     | 対応していない iOS バージョンです。                                              |
+| 111xx     | バナーサイズがありません。                                                       |
 | 201xx     | 広告の有効期限が切れました。                                                     |
 | 202xx     | 広告の準備ができていません。                                                     |
 | 203xx     | 広告はすでに表示されています。                                                   |

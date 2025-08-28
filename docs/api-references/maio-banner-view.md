@@ -33,7 +33,7 @@ var size: MaioBannerSize?
 _2.1.7 +_
 
 ```swift
-var listener: MaioBannerListener?
+weak var listener: MaioBannerListener?
 ```
 
 バナー広告のイベントリスナー。
@@ -43,7 +43,7 @@ var listener: MaioBannerListener?
 _2.1.7 +_
 
 ```swift
-var rootViewController: UIViewController?
+weak var rootViewController: UIViewController?
 ```
 
 AppStore をアプリ内で表示する際のベースとなる `UIViewController`。

@@ -76,17 +76,17 @@ init(zoneId: String? = nil, size: MaioBannerSize? = nil)
     - 要求するバナーのサイズ
 
 
-### func load(test: Bool = false)
+### func load(testMode: Bool = false)
 
 _2.1.7 +_
 
 ```swift
-func load(test: Bool = false)
+func load(testMode: Bool = false)
 ```
 
 #### Parameters
 
-- `test`
+- `testMode`
     - テストモードとしてリクエストするかどうかのフラグ。`true`: テストモード有効 `false`: 本番稼働。
 
 ### func pause()

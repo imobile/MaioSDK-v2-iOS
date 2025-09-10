@@ -472,7 +472,7 @@ var size: MaioBannerSize?
 _2.1.7 +_
 
 ```swift
-var listener: MaioBannerListener?
+weak var listener: MaioBannerListener?
 ```
 
 バナー広告のイベントリスナー。
@@ -482,7 +482,7 @@ var listener: MaioBannerListener?
 _2.1.7 +_
 
 ```swift
-var rootViewController: UIViewController?
+weak var rootViewController: UIViewController?
 ```
 
 AppStore をアプリ内で表示する際のベースとなる `UIViewController`。
@@ -515,17 +515,17 @@ init(zoneId: String? = nil, size: MaioBannerSize? = nil)
     - 要求するバナーのサイズ
 
 
-### func load(test: Bool = false)
+### func load(testMode: Bool = false)
 
 _2.1.7 +_
 
 ```swift
-func load(test: Bool = false)
+func load(testMode: Bool = false)
 ```
 
 #### Parameters
 
-- `test`
+- `testMode`
     - テストモードとしてリクエストするかどうかのフラグ。`true`: テストモード有効 `false`: 本番稼働。
 
 ### func pause()

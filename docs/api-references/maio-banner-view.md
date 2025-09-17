@@ -1,6 +1,6 @@
 ## MaioBannerView
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 class MaioBannerView: UIView
@@ -10,7 +10,7 @@ class MaioBannerView: UIView
 
 ### @IBInspectable var zoneId: String?
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 @IBInspectable var zoneId: String?
@@ -20,7 +20,7 @@ maio の管理画面から発行されるゾーン識別子。
 
 ### var size: MaioBannerSize?
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 var size: MaioBannerSize?
@@ -30,7 +30,7 @@ var size: MaioBannerSize?
 
 ### var listener: MaioBannerListener?
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 weak var listener: MaioBannerListener?
@@ -40,7 +40,7 @@ weak var listener: MaioBannerListener?
 
 ### var rootViewController: UIViewController?
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 weak var rootViewController: UIViewController?
@@ -50,7 +50,7 @@ AppStore をアプリ内で表示する際のベースとなる `UIViewControlle
 
 ### var isReady: Bool
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 var isReady: Bool
@@ -60,7 +60,7 @@ var isReady: Bool
 
 ### init(zoneId: String? = nil, size: MaioBannerSize? = nil)
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 init(zoneId: String? = nil, size: MaioBannerSize? = nil)
@@ -78,7 +78,7 @@ init(zoneId: String? = nil, size: MaioBannerSize? = nil)
 
 ### func load(testMode: Bool = false)
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 func load(testMode: Bool = false)
@@ -91,7 +91,7 @@ func load(testMode: Bool = false)
 
 ### func pause()
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 func pause()
@@ -101,7 +101,7 @@ func pause()
 
 ### func resume()
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 func resume()
@@ -111,7 +111,7 @@ func resume()
 
 ### func destroy()
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 func destroy()

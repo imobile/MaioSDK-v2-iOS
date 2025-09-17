@@ -1,6 +1,6 @@
 ## MaioBannerSize
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 class MaioBannerSize: NSObject
@@ -10,7 +10,7 @@ class MaioBannerSize: NSObject
 
 ### static let banner: MaioBannerSize
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 static let banner: MaioBannerSize
@@ -20,7 +20,7 @@ static let banner: MaioBannerSize
 
 ### static let bigBanner: MaioBannerSize
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 static let bigBanner: MaioBannerSize
@@ -30,7 +30,7 @@ static let bigBanner: MaioBannerSize
 
 ### static let mediumRectangle: MaioBannerSize
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 static let mediumRectangle: MaioBannerSize

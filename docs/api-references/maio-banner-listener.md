@@ -1,6 +1,6 @@
 ## MaioBannerListener
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 protocol MaioBannerListener: AnyObject
@@ -10,7 +10,7 @@ protocol MaioBannerListener: AnyObject
 
 ### optional func didLoad(_ ad: MaioBannerView)
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 optional func didLoad(_ ad: MaioBannerView)
@@ -25,7 +25,7 @@ optional func didLoad(_ ad: MaioBannerView)
 
 ### optional func didFailToLoad(_ ad: MaioBannerView, errorCode: Int)
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 optional func didFailToLoad(_ ad: MaioBannerView, errorCode: Int)
@@ -42,7 +42,7 @@ optional func didFailToLoad(_ ad: MaioBannerView, errorCode: Int)
 
 ### optional func didMakeImpression(_ ad: MaioBannerView)
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 optional func didMakeImpression(_ ad: MaioBannerView)
@@ -57,7 +57,7 @@ optional func didMakeImpression(_ ad: MaioBannerView)
 
 ### optional func didClick(_ ad: MaioBannerView)
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 optional func didClick(_ ad: MaioBannerView)
@@ -73,7 +73,7 @@ optional func didClick(_ ad: MaioBannerView)
 
 ### optional func didLeaveApplication(_ ad: MaioBannerView)
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 optional func didLeaveApplication(_ ad: MaioBannerView)
@@ -88,7 +88,7 @@ optional func didLeaveApplication(_ ad: MaioBannerView)
 
 ### optional func didFailToShow(_ ad: MaioBannerView, errorCode: Int)
 
-_2.1.7 +_
+_2.2.0 +_
 
 ```swift
 optional func didFailToShow(_ ad: MaioBannerView, errorCode: Int)

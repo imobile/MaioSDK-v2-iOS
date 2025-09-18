@@ -1,6 +1,6 @@
 # maio SDK v2
 
-- Supported: iOS 14.0+ (Xcode 15.0+)
+- Supported: iOS 15.0+ (Xcode 16.0+)
 
 ## What is maio?
 

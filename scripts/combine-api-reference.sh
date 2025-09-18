@@ -16,6 +16,9 @@ maio-rewarded.md
 reward-data.md
 maio-rewarded-load-callback.md
 maio-rewarded-show-callback.md
+maio-banner-size.md
+maio-banner-view.md
+maio-banner-listener.md
 maio-version.md
 error-code.md
 EOT

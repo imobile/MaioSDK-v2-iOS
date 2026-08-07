@@ -34,6 +34,15 @@ maioを導入したいプロジェクトの`Podfile`に、以下の内容を追�
 pod 'MaioSDK-v2'
 ```
 
+#### Swift Package Manager で導入する
+
+本リポジトリにてSwift Package Manager向けに配布しております。
+Package URLとして、以下のURLを指定してください。
+
+```txt
+https://github.com/imobile/MaioSDK-v2-iOS
+```
+
 ### Rewarded の読み込み
 
 `MaioRewarded.loadAd(request:callback:)`を呼び出し、Rewarded広告の読み込みを開始します。

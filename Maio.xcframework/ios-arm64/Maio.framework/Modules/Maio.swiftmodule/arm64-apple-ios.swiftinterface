@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Maio
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Maio
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AdSupport
 import Combine
@@ -22,7 +22,9 @@ import _SwiftConcurrencyShims
   @objc final public let zoneId: Swift.String
   @objc final public let testMode: Swift.Bool
   @objc final public let bidData: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(zoneId: Swift.String, testMode: Swift.Bool, bidData: Swift.String?)
+  #endif
   @objc convenience public init(zoneId: Swift.String, testMode: Swift.Bool)
   @objc deinit
 }
@@ -39,8 +41,12 @@ import _SwiftConcurrencyShims
   @objc optional func didFail(_ ad: Maio.MaioRewarded, errorCode: Swift.Int)
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class MaioRewarded : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func loadAd(request: Maio.MaioRequest, callback: (any Maio.MaioRewardedLoadCallback)?) -> Maio.MaioRewarded
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func show(viewContext context: UIKit.UIViewController, callback: (any Maio.MaioRewardedShowCallback)?)
+  #endif
   @objc public var request: Maio.MaioRequest {
     @objc get
   }
@@ -62,13 +68,17 @@ import _SwiftConcurrencyShims
   @objc @_Concurrency.MainActor @preconcurrency public var isReady: Swift.Bool {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency public init(zoneId: Swift.String? = nil, size: Maio.MaioBannerSize? = nil)
+  #endif
   @objc deinit
   @objc @_Concurrency.MainActor @preconcurrency public func destroy()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
   @objc @_Concurrency.MainActor @preconcurrency public func pause()
   @objc @_Concurrency.MainActor @preconcurrency public func resume()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency public func load(testMode: Swift.Bool = false, bidData: Swift.String? = nil)
+  #endif
 }
 @objc public protocol MaioBannerDelegate {
   @objc optional func didLoad(_ ad: Maio.MaioBannerView)
@@ -107,7 +117,11 @@ import _SwiftConcurrencyShims
   @objc public var request: Maio.MaioRequest {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func loadAd(request: Maio.MaioRequest, callback: (any Maio.MaioInterstitialLoadCallback)?) -> Maio.MaioInterstitial
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func show(viewContext context: UIKit.UIViewController, callback: (any Maio.MaioInterstitialShowCallback)?)
+  #endif
   @objc deinit
 }

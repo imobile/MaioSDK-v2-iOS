@@ -1,6 +1,6 @@
 # maio SDK v2
 
-- Supported: iOS 15.0+ (Xcode 16.0+)
+- Supported: iOS 15.0+ (Xcode 26.0+)
 
 ## What is maio?
 
@@ -32,6 +32,15 @@ maioを導入したいプロジェクトの`Podfile`に、以下の内容を追�
 
 ```ruby
 pod 'MaioSDK-v2'
+```
+
+#### Swift Package Manager で導入する
+
+本リポジトリにてSwift Package Manager向けに配布しております。
+Package URLとして、以下のURLを指定してください。
+
+```txt
+https://github.com/imobile/MaioSDK-v2-iOS
 ```
 
 ### Rewarded の読み込み

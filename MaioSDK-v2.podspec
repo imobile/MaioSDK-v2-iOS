@@ -1,4 +1,4 @@
-sdk_version = '2.2.1'
+sdk_version = '2.2.2'
 
 Pod::Spec.new do |s|
   s.name             = 'MaioSDK-v2'
@@ -17,7 +17,7 @@ MaioSDK is Ad SDK of fullscreen movie
   s.vendored_frameworks = 'Maio.xcframework'
 
   s.platform = :ios
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
 
   s.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'Network', 'AVFoundation', 'SystemConfiguration', 'AdSupport', 'StoreKit', 'WebKit', 'SafariServices'
   s.library = 'z'
